@@ -1,0 +1,39 @@
+.jumbotron {
+    text-align: center;
+    line-height: 30px;
+}
+
+.jumbotron h1 {
+    margin-bottom: 20px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 100%;
+}
+
+.btn {
+    border: none;
+    font-family: Roboto, sans-serif;
+    border-radius: 0.2rem;
+    font-weight: bold;
+    transition: 0.25s ease-out;
+}
+
+.btn:hover {
+    box-shadow: rgba(0,0,0,0.16) 0px 3px 6px, rgba(0,0,0,0.23) 0px 3px 6px;
+}
+
+.btn:active {
+    background-color: #0984e3;
+    box-shadow: rgba(0,0,0,0.16) 0px 3px 6px, rgba(0,0,0,0.23) 0px 3px 6px;
+}
+
+footer {
+    margin-top: 5vh;
+    color: white;
+    text-align: center;
+}
